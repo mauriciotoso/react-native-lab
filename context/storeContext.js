@@ -15,11 +15,14 @@ export const StoreProvider = ({children}) => {
     {nombre: 'Categoria 3', color: 'green', id: Math.random().toString(10)},
     {nombre: 'Categoria 4', color: 'yellow', id: Math.random().toString(10)},
   ]);
+
   const [usuarios, setUsuarios] = useState([
-    {nombre: 'Usuario 1',email:'example@gmail.com', color: 'red', id: Math.random().toString(10)},
-    {nombre: 'Usuario 2',email:'example@gmail.com', color: 'blue', id: Math.random().toString(10)},
-    {nombre: 'Usuario 3',email:'example@gmail.com', color: 'green', id: Math.random().toString(10)},
-    {nombre: 'Usuario 4',email:'example@gmail.com', color: 'yellow', id: Math.random().toString(10)},
+    {nombre: 'Mauricio',email:'mauricio@gmail.com', color: 'red', id: Math.random().toString(10)},
+    {nombre: 'Micaela',email:'micaela@gmail.com', color: 'blue', id: Math.random().toString(10)},
+    {nombre: 'Matias',email:'matias@gmail.com', color: 'green', id: Math.random().toString(10)},
+    {nombre: 'Martin',email:'martin@gmail.com', color: 'yellow', id: Math.random().toString(10)},
+    {nombre: 'Federico',email:'federico@gmail.com', color: 'yellow', id: Math.random().toString(10)},
+    {nombre: 'Leandro',email:'leandro@gmail.com', color: 'blue', id: Math.random().toString(10)},
   ]);
 
   const [categoriasProductos, setCategoriasProductos] = useState({});

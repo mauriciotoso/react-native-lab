@@ -60,7 +60,7 @@ export const ListaCategorias = () => {
       {
         nombre: nombreNuevaCategoria,
         color: colorNuevaCategoria,
-        id: Math.random(),
+        id: Math.random().toString(10),
       },
     ]);
     setNombreNuevaCategoria('');

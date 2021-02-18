@@ -63,7 +63,7 @@ export const Registrarme = () => {
         nombre: nombreNuevoUsuario,
         color: colorNuevoUsuario,
         email: emailNuevoUsuario,
-        id: Math.random(),
+        id: Math.random().toString(10),
       },
     ]);
     setNombreNuevoUsuario('');
